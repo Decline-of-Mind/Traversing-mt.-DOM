@@ -58,3 +58,6 @@ p{
 .selected{
     background-color: #F07D00;
 }
+.turnBlack{
+    background-color: black !important;
+}
