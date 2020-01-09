@@ -12,8 +12,8 @@ $(document).ready(function(){
         $(this).removeClass("makeBlack");
     });
     $(".theButton").click( function() {
-        var panelColor = $(this).css("background-color");
-        $("superButton").text(panelColor);
+        var col = $(this).css("background-color");
+        $("superButton").text(col);
     });
 });
 //--- for Challenge_B.html ---//
